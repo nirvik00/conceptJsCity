@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>grid-cubes</title>
+
+  <style>
+  #scene3d {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+  #information {
+    cursor: pointer;
+    z-index: 3;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  </style>
+
+
+  <script src="threeJS/three.min.js"></script>
+  <script src="threeJS/OrbitControls.js"></script>
+  <script src="threeJS/stats.min.js"></script>
+  
+  <script src="guiJS/dat.gui.min.js"></script>
+  <script src="guiJS/jquery-3.3.1.min.js"></script>
+
+ 
+
+</head>
+<body>
+    <!--<div id="information" style="width: 300px; overflow: auto; overflow-x: hidden; height: 100px;"> Information</div>-->
+    <textarea id="information" style="width: 300px; overflow: auto; overflow-x: hidden; height: 100px;" readonly> Information</textarea>
+
+    <div id="scene3d"></div>
+  <script src="nsJsConcept/nsGeoDefFile.js"></script>
+  <script src="nsJsConcept/nsGUI.js"></script>
+  <script src="nsJsConcept/genGridFile.js"></script>
+  <script src="nsJsConcept/scene4.js"></script>
+  
+  
+
+</body>
+</html>
